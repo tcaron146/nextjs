@@ -1,13 +1,14 @@
 "use client"
 
 import CountButton from "./CountButton"
+import ProductTable from "./Store"
+
 export default function Page() {
     return <div>
     <CountButton />
-    <CountButton />
     <hr />
-    <a href = ""></a>
+    <a href = "https://github.com/tcaron146/nextjs">Git Hub Repo</a>
     <hr />
-    Search Bar
+    <ProductTable />
   </div>
   }
